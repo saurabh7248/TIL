@@ -1,5 +1,5 @@
 ## Download links present in a file
----  
+
 To download all links present per line in a file.
 
 ```

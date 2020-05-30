@@ -1,5 +1,5 @@
 ## Completely download a website using wget
----  
+
 To download a website completely may be useful while downloading documentation offline.
 
 ```

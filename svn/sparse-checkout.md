@@ -1,5 +1,4 @@
 ## Sparse Checkout of a svn repository
----
 
 You can limit the depth of a svn repository by setting the depth for each directory.  
 

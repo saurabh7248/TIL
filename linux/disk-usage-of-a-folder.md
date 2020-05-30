@@ -1,5 +1,5 @@
 ## Check the storage being consumed by a folder
----  
+
 ```
 du -sh folder-name
 ```
