@@ -16,3 +16,9 @@ conda create --name myenv python=3.7
 ```
 conda create --name myclone --clone myenv
 ```
+
+## Create environment from environment.yml file
+
+```
+conda env create -f environment.yml
+```
