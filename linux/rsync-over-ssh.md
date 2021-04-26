@@ -7,17 +7,18 @@ For copy just reverse the source and destination places.
 ```
 rsync -avzh --progress --stats username@<hostname or ip>:/path/in/remote/system /path/to/copy/in/current/system
 ```
-a: archive mode
-v: verbose
-h: sizes in human readable form
+a: archive mode  
+v: verbose  
+h: sizes in human readable form  
 z: compress contents
 
-stats: shows some stats related to file transfer
-progress: shows progress of the transfer
+stats: shows some stats related to file transfer  
+progress: shows progress of the transfer  
 
-Additional parameters
-partial: By default rsync deletes are retries complete transfer once a transfer is interrupted. Using partial only the rest of the file is copied.
-update: skips files that are newer on the receiver
+Additional parameters  
+
+partial: By default rsync deletes are retries complete transfer once a transfer is interrupted. Using partial only the rest of the file is copied.  
+update: skips files that are newer on the receiver  
 u: same as --update
 
 One addtional thing to note is difference between 
