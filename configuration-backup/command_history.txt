@@ -1,0 +1,27 @@
+: 1619184726:0;sudo nethogs
+: 1619253478:0;sudo service --status-all
+: 1619278504:0;acpi -t
+: 1619278524:0;sudo service sddm restart
+: 1619278575:0;lsblk
+: 1619338742:0;free -h
+: 1619407404:0;sudo apt auto-remove
+: 1619408086:0;java -version
+: 1619408664:0;apt list --installed
+: 1619412119:0;exit
+: 1619443867:0;ifconfig
+: 1619443884:0;ls
+: 1619443941:0;systemd-analyze blame
+: 1619444017:0;ip addr
+: 1619444075:0;route
+: 1619444238:0;ip neigh
+: 1619444325:0;ssh saurabh@192.168.1.4
+: 1619444697:0;ls
+: 1619444700:0;ls -lh
+: 1619444703:0;ls -lah
+: 1619444713:0;clear
+: 1619444993:0;cd ~
+: 1619445066:1124;rsync -avzh --partial --progress --stats saurabh@192.168.1.4:/home/saurabh/softwares/CLion-2021.1.tar.gz .
+: 1619446250:0;reboot
+: 1619490139:0;parted
+: 1619490581:0;sudo parted
+: 1619543336:0;cat ~/.zsh_history > command_history.txt
