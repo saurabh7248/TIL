@@ -1,4 +1,4 @@
-## Command to export configuration of exisitng environment
+## Command to remove a specific environment
 
 ```
 conda remove --name <environment-name> --all

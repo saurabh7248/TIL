@@ -1,4 +1,4 @@
-## Command to export configuration of exisitng environment
+## Command to list all environments
 
 ```
 conda env list

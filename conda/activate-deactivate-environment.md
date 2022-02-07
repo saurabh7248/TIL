@@ -1,4 +1,4 @@
-## Command to export configuration of exisitng environment
+## Command to activate particular environment
 
 ```
 conda activate <environment-name>
