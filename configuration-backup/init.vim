@@ -16,6 +16,7 @@ Plug 'matze/vim-move'
 Plug 'jonathanfilip/vim-lucius'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'preservim/tagbar'
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | wincmd p | endif
 let g:tagbar_ctags_bin="E:/programs/ctags/ctags.exe"
@@ -28,4 +29,4 @@ nnoremap <silent> <A-z> :set wrap! wrap?<CR>
 nnoremap <silent> <A-Right> <C-]>
 nnoremap <silent> <A-Left> <C-T>
 colorscheme PaperColor
-" explore vim-tags,vim-autotags,vim-gutentags
+set tags=./tags;/
